@@ -52,3 +52,8 @@ function startCountdown(duration) {
     }
   }, 1000);
 }
+
+document.querySelector(".click-counter-section__reset-button").addEventListener("click", () => {
+  const clickCounter = document.querySelector(".click-counter-section__counter");
+  clickCounter.textContent = 0;
+});
