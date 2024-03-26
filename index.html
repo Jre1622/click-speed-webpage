@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- My CSS (loaded after BOOTSTRAP) -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Click Speed</title>
+  </head>
+  <body>
+    <!-- NAVBAR SECTION -->
+    <nav class="navbar navbar-expand-sm bg-body-tertiary rounded" aria-label="Eleventh navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand custom--hover" href="#">Click Speed</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample09"
+          aria-controls="navbarsExample09"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample09">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active custom--hover" aria-current="page" href="#">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom--hover" href="#">Donate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR SECTION --
+
+    <!-- STATS SECTION -->
+    <div class="stats-section">
+      <div class="stats-section__stats"></div>
+    </div>
+    <!-- STATS SECTION -->
+
+    <!-- GAME SECTION -->
+    <div class="game-section">
+      <div class="game-section__click-area">
+        <button class="game-section__click-area__button">Click me!</button>
+      </div>
+    </div>
+    <!-- GAME SECTION -->
+
+    <!-- CLICK COUNTER SECTION -->
+    <div class="click-counter-section">
+      <h2>Clicks: <span class="click-counter-section__counter">0</span></h2>
+    </div>
+    <!-- CLICK COUNTER SECTION -->
+
+    <!-- TIME SECTION -->
+    <div class="time-section">
+      <div class="time-section__time-choice">
+        <button class="time-section__time-choice__button ten-sec">10s</button>
+        <button class="time-section__time-choice__button thirty-sec">30s</button>
+        <button class="time-section__time-choice__button sixty-sec">60s</button>
+      </div>
+
+      <div class="time-section__time-display">time</div>
+    </div>
+    <!-- TIME SECTION -->
+
+    <!-- INFORMATION SECTION -->
+    <div class="info-section__info">
+      <h2>What is CPS?</h2>
+      <p>
+        Clicks per second (CPS) is a measure of how fast you can click in a given amount of time. It is a measure of
+        your clicking speed, and is often used in games to measure how fast you can click. The faster you can click, the
+        higher your CPS.
+      </p>
+      <h2>What scores are good/bad?</h2>
+      <p>
+        The average CPS is about <strong>6-7</strong>. If you can click <strong>10+</strong> CPS, you are doing well. If
+        you can click <strong>15+</strong> CPS, you are doing great. If you can click <strong>20+</strong> CPS, you are
+        doing amazing.
+      </p>
+      <h2>World Record CPS</h2>
+      <p>
+        According to Recordsetter - a website that lets player post record for everything, Per the same website, Dylan
+        Allred from Las Vegas holds the world record for most mouse clicks in 10 seconds. The data suggest that Allred
+        click the mouse 1,051 times in 10 seconds. Which is <strong>104.9 clicks per second</strong>.
+      </p>
+      <br />
+      <p>
+        In 2010, Tom Andre Seppola from Norway held the world record for the maximum number of clicks in thirty seconds.
+        Seppola completed 830 clicks in 30 seconds. Which is <strong>27.6 clicks per second</strong>.
+      </p>
+      <br />
+      <p>
+        Apart from the mouse click speed test, players play the game to challenge how fast they can hit the spacebar in
+        a given time. The game is identical to mouse click speed with the only difference being that the player has to
+        click the spacebar instead of the mouse. Also, the game has multiple time variations starting from 5 seconds to
+        a minute long.
+      </p>
+    </div>
+    <!-- INFORMATION SECTION -->
+
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
